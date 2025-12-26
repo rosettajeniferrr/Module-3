@@ -10,8 +10,17 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
+```
+import ast
+tup = ast.literal_eval(input().strip())
+
+print('r' in tup)
+print(5 in tup)
+```
 
 ## Output
 
+<img width="737" height="261" alt="image" src="https://github.com/user-attachments/assets/8f088127-e806-4edd-b755-a3834a23f025" />
+
 ## Result
+Thus, the program has been successfully executed.
